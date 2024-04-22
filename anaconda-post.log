@@ -1,0 +1,191 @@
+Loaded plugins: fastestmirror, ovl
+No Match for argument: bind-libs-lite
+No Match for argument: dhclient
+No Match for argument: dhcp-common
+No Match for argument: dhcp-libs
+No Match for argument: dracut-network
+No Match for argument: e2fsprogs
+No Match for argument: e2fsprogs-libs
+No Match for argument: ethtool
+No Match for argument: file
+No Match for argument: freetype
+No Match for argument: gettext
+No Match for argument: gettext-libs
+No Match for argument: grub2
+No Match for argument: grub2-tools
+No Match for argument: kexec-tools
+No Match for argument: libcroco
+No Match for argument: libgomp
+No Match for argument: lzo
+No Match for argument: libunistring
+No Match for argument: os-prober
+No Match for argument: snappy
+No Match for argument: which
+No Match for argument: qemu-guest-agent
+Resolving Dependencies
+--> Running transaction check
+---> Package GeoIP.x86_64 0:1.5.0-13.el7 will be erased
+--> Processing Dependency: libGeoIP.so.1()(64bit) for package: 32:bind-utils-9.9.4-72.el7.x86_64
+---> Package bind-libs.x86_64 32:9.9.4-72.el7 will be erased
+---> Package ebtables.x86_64 0:2.0.10-16.el7 will be erased
+---> Package firewalld.noarch 0:0.5.3-5.el7 will be erased
+---> Package firewalld-filesystem.noarch 0:0.5.3-5.el7 will be erased
+---> Package groff-base.x86_64 0:1.22.2-8.el7 will be erased
+--> Processing Dependency: groff-base for package: less-458-9.el7.x86_64
+---> Package grubby.x86_64 0:8.28-25.el7 will be erased
+---> Package initscripts.x86_64 0:9.49.46-1.el7 will be erased
+---> Package iproute.x86_64 0:4.11.0-14.el7 will be erased
+---> Package iptables.x86_64 0:1.4.21-28.el7 will be erased
+---> Package libmnl.x86_64 0:1.0.3-7.el7 will be erased
+--> Processing Dependency: libmnl.so.0()(64bit) for package: ipset-libs-6.38-3.el7_6.x86_64
+--> Processing Dependency: libmnl.so.0(LIBMNL_1.0)(64bit) for package: ipset-libs-6.38-3.el7_6.x86_64
+---> Package libnetfilter_conntrack.x86_64 0:1.0.6-1.el7_3 will be erased
+---> Package libnfnetlink.x86_64 0:1.0.1-4.el7 will be erased
+---> Package libselinux-python.x86_64 0:2.5-14.1.el7 will be erased
+---> Package linux-firmware.noarch 0:20180911-69.git85c5d90.el7 will be erased
+---> Package python-decorator.noarch 0:3.4.0-3.el7 will be erased
+--> Processing Dependency: python-decorator for package: python-firewall-0.5.3-5.el7.noarch
+---> Package python-slip.noarch 0:0.4.0-4.el7 will be erased
+---> Package python-slip-dbus.noarch 0:0.4.0-4.el7 will be erased
+---> Package sysvinit-tools.x86_64 0:2.88-14.dsf.el7 will be erased
+--> Running transaction check
+---> Package bind-utils.x86_64 32:9.9.4-72.el7 will be erased
+---> Package ipset-libs.x86_64 0:6.38-3.el7_6 will be erased
+--> Processing Dependency: ipset-libs(x86-64) = 6.38-3.el7_6 for package: ipset-6.38-3.el7_6.x86_64
+--> Processing Dependency: libipset.so.11()(64bit) for package: ipset-6.38-3.el7_6.x86_64
+--> Processing Dependency: libipset.so.11(LIBIPSET_1.0)(64bit) for package: ipset-6.38-3.el7_6.x86_64
+--> Processing Dependency: libipset.so.11(LIBIPSET_2.0)(64bit) for package: ipset-6.38-3.el7_6.x86_64
+--> Processing Dependency: libipset.so.11(LIBIPSET_3.0)(64bit) for package: ipset-6.38-3.el7_6.x86_64
+--> Processing Dependency: libipset.so.11(LIBIPSET_4.5)(64bit) for package: ipset-6.38-3.el7_6.x86_64
+--> Processing Dependency: libipset.so.11(LIBIPSET_4.6)(64bit) for package: ipset-6.38-3.el7_6.x86_64
+---> Package less.x86_64 0:458-9.el7 will be erased
+---> Package python-firewall.noarch 0:0.5.3-5.el7 will be erased
+--> Running transaction check
+---> Package ipset.x86_64 0:6.38-3.el7_6 will be erased
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                 Arch    Version                        Repository
+                                                                           Size
+================================================================================
+Removing:
+ GeoIP                   x86_64  1.5.0-13.el7                   @CentOS   3.7 M
+ bind-libs               x86_64  32:9.9.4-72.el7                @CentOS   2.6 M
+ ebtables                x86_64  2.0.10-16.el7                  @CentOS   343 k
+ firewalld               noarch  0.5.3-5.el7                    @CentOS   1.8 M
+ firewalld-filesystem    noarch  0.5.3-5.el7                    @CentOS   239  
+ groff-base              x86_64  1.22.2-8.el7                   @CentOS   3.3 M
+ grubby                  x86_64  8.28-25.el7                    @CentOS   124 k
+ initscripts             x86_64  9.49.46-1.el7                  @CentOS   1.4 M
+ iproute                 x86_64  4.11.0-14.el7                  @CentOS   1.7 M
+ iptables                x86_64  1.4.21-28.el7                  @CentOS   1.5 M
+ libmnl                  x86_64  1.0.3-7.el7                    @CentOS    51 k
+ libnetfilter_conntrack  x86_64  1.0.6-1.el7_3                  @CentOS   140 k
+ libnfnetlink            x86_64  1.0.1-4.el7                    @CentOS    46 k
+ libselinux-python       x86_64  2.5-14.1.el7                   @CentOS   589 k
+ linux-firmware          noarch  20180911-69.git85c5d90.el7     @CentOS   176 M
+ python-decorator        noarch  3.4.0-3.el7                    @CentOS    71 k
+ python-slip             noarch  0.4.0-4.el7                    @CentOS    60 k
+ python-slip-dbus        noarch  0.4.0-4.el7                    @CentOS    75 k
+ sysvinit-tools          x86_64  2.88-14.dsf.el7                @CentOS   107 k
+Removing for dependencies:
+ bind-utils              x86_64  32:9.9.4-72.el7                @CentOS   431 k
+ ipset                   x86_64  6.38-3.el7_6                   @Updates   76 k
+ ipset-libs              x86_64  6.38-3.el7_6                   @Updates  175 k
+ less                    x86_64  458-9.el7                      @CentOS   210 k
+ python-firewall         noarch  0.5.3-5.el7                    @CentOS   1.8 M
+
+Transaction Summary
+================================================================================
+Remove  19 Packages (+5 Dependent packages)
+
+Installed size: 196 M
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+Warning: RPMDB altered outside of yum.
+  Erasing    : firewalld-0.5.3-5.el7.noarch                                1/24 
+  Erasing    : python-firewall-0.5.3-5.el7.noarch                          2/24 
+  Erasing    : python-slip-dbus-0.4.0-4.el7.noarch                         3/24 
+  Erasing    : python-slip-0.4.0-4.el7.noarch                              4/24 
+  Erasing    : python-decorator-3.4.0-3.el7.noarch                         5/24 
+  Erasing    : firewalld-filesystem-0.5.3-5.el7.noarch                     6/24 
+  Erasing    : linux-firmware-20180911-69.git85c5d90.el7.noarch            7/24 
+  Erasing    : 32:bind-utils-9.9.4-72.el7.x86_64                           8/24 
+  Erasing    : initscripts-9.49.46-1.el7.x86_64                            9/24 
+warning: /etc/adjtime saved as /etc/adjtime.rpmsave
+  Erasing    : iproute-4.11.0-14.el7.x86_64                               10/24 
+  Erasing    : iptables-1.4.21-28.el7.x86_64                              11/24 
+  Erasing    : libnetfilter_conntrack-1.0.6-1.el7_3.x86_64                12/24 
+  Erasing    : 32:bind-libs-9.9.4-72.el7.x86_64                           13/24 
+  Erasing    : ipset-6.38-3.el7_6.x86_64                                  14/24 
+  Erasing    : ipset-libs-6.38-3.el7_6.x86_64                             15/24 
+  Erasing    : less-458-9.el7.x86_64                                      16/24 
+  Erasing    : groff-base-1.22.2-8.el7.x86_64                             17/24 
+  Erasing    : libmnl-1.0.3-7.el7.x86_64                                  18/24 
+  Erasing    : GeoIP-1.5.0-13.el7.x86_64                                  19/24 
+  Erasing    : libnfnetlink-1.0.1-4.el7.x86_64                            20/24 
+  Erasing    : sysvinit-tools-2.88-14.dsf.el7.x86_64                      21/24 
+  Erasing    : libselinux-python-2.5-14.1.el7.x86_64                      22/24 
+  Erasing    : ebtables-2.0.10-16.el7.x86_64                              23/24 
+  Erasing    : grubby-8.28-25.el7.x86_64                                  24/24 
+  Verifying  : firewalld-filesystem-0.5.3-5.el7.noarch                     1/24 
+  Verifying  : libmnl-1.0.3-7.el7.x86_64                                   2/24 
+  Verifying  : linux-firmware-20180911-69.git85c5d90.el7.noarch            3/24 
+  Verifying  : firewalld-0.5.3-5.el7.noarch                                4/24 
+  Verifying  : libnetfilter_conntrack-1.0.6-1.el7_3.x86_64                 5/24 
+  Verifying  : sysvinit-tools-2.88-14.dsf.el7.x86_64                       6/24 
+  Verifying  : iproute-4.11.0-14.el7.x86_64                                7/24 
+  Verifying  : 32:bind-libs-9.9.4-72.el7.x86_64                            8/24 
+  Verifying  : initscripts-9.49.46-1.el7.x86_64                            9/24 
+  Verifying  : GeoIP-1.5.0-13.el7.x86_64                                  10/24 
+  Verifying  : groff-base-1.22.2-8.el7.x86_64                             11/24 
+  Verifying  : 32:bind-utils-9.9.4-72.el7.x86_64                          12/24 
+  Verifying  : python-slip-dbus-0.4.0-4.el7.noarch                        13/24 
+  Verifying  : ipset-libs-6.38-3.el7_6.x86_64                             14/24 
+  Verifying  : python-firewall-0.5.3-5.el7.noarch                         15/24 
+  Verifying  : python-slip-0.4.0-4.el7.noarch                             16/24 
+  Verifying  : python-decorator-3.4.0-3.el7.noarch                        17/24 
+  Verifying  : libselinux-python-2.5-14.1.el7.x86_64                      18/24 
+  Verifying  : iptables-1.4.21-28.el7.x86_64                              19/24 
+  Verifying  : libnfnetlink-1.0.1-4.el7.x86_64                            20/24 
+  Verifying  : ipset-6.38-3.el7_6.x86_64                                  21/24 
+  Verifying  : grubby-8.28-25.el7.x86_64                                  22/24 
+  Verifying  : less-458-9.el7.x86_64                                      23/24 
+  Verifying  : ebtables-2.0.10-16.el7.x86_64                              24/24 
+
+Removed:
+  GeoIP.x86_64 0:1.5.0-13.el7                                                   
+  bind-libs.x86_64 32:9.9.4-72.el7                                              
+  ebtables.x86_64 0:2.0.10-16.el7                                               
+  firewalld.noarch 0:0.5.3-5.el7                                                
+  firewalld-filesystem.noarch 0:0.5.3-5.el7                                     
+  groff-base.x86_64 0:1.22.2-8.el7                                              
+  grubby.x86_64 0:8.28-25.el7                                                   
+  initscripts.x86_64 0:9.49.46-1.el7                                            
+  iproute.x86_64 0:4.11.0-14.el7                                                
+  iptables.x86_64 0:1.4.21-28.el7                                               
+  libmnl.x86_64 0:1.0.3-7.el7                                                   
+  libnetfilter_conntrack.x86_64 0:1.0.6-1.el7_3                                 
+  libnfnetlink.x86_64 0:1.0.1-4.el7                                             
+  libselinux-python.x86_64 0:2.5-14.1.el7                                       
+  linux-firmware.noarch 0:20180911-69.git85c5d90.el7                            
+  python-decorator.noarch 0:3.4.0-3.el7                                         
+  python-slip.noarch 0:0.4.0-4.el7                                              
+  python-slip-dbus.noarch 0:0.4.0-4.el7                                         
+  sysvinit-tools.x86_64 0:2.88-14.dsf.el7                                       
+
+Dependency Removed:
+  bind-utils.x86_64 32:9.9.4-72.el7           ipset.x86_64 0:6.38-3.el7_6       
+  ipset-libs.x86_64 0:6.38-3.el7_6            less.x86_64 0:458-9.el7           
+  python-firewall.noarch 0:0.5.3-5.el7       
+
+Complete!
+Loaded plugins: fastestmirror, ovl
+Cleaning repos: base extras updates
+Locking password for user root.
+passwd: Success

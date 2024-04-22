@@ -1,0 +1,44 @@
+267:794b790fb5989bb0979bafc198410371e688950d
+32
+1
+installed:272:c93092640523da70e4038c0db8f96685326a282d
+5
+mbr: openssl,x86_64,1,1.0.2k,16.el7_6.1 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: which,x86_64,0,2.20,7.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: make,x86_64,1,3.82,23.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: openssl,x86_64,1,1.0.2k,16.el7_6.1@a:dependson
+  depends_on: openssl,x86_64,1,1.0.2k,16.el7_6.1@a
+mbr: jq,x86_64,0,1.5,1.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: oniguruma,x86_64,0,5.9.5,3.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: jq,x86_64,0,1.5,1.el7@a:dependson
+  depends_on: jq,x86_64,0,1.5,1.el7@a

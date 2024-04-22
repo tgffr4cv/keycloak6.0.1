@@ -1,0 +1,321 @@
+[base]
+async = True
+bandwidth = 0
+base_persistdir = /var/lib/yum/repos/x86_64/7
+baseurl = http://mirrors.advancedhosters.com/centos/7.6.1810/os/x86_64/,
+   http://mirror.vtti.vt.edu/centos/7.6.1810/os/x86_64/,
+   http://mirror.cs.vt.edu/pub/CentOS/7.6.1810/os/x86_64/,
+   http://mirror.vcu.edu/pub/gnu_linux/centos/7.6.1810/os/x86_64/,
+   http://repos-va.psychz.net/centos/7.6.1810/os/x86_64/,
+   http://mirror.ash.fastserv.com/centos/7.6.1810/os/x86_64/,
+   http://repo1.ash.innoscale.net/centos/7.6.1810/os/x86_64/,
+   http://centos4.zswap.net/7.6.1810/os/x86_64/,
+   http://mirror.cogentco.com/pub/linux/centos/7.6.1810/os/x86_64/,
+   http://mirror.rackspace.com/CentOS/7.6.1810/os/x86_64/
+cache = 0
+cachedir = /var/cache/yum/x86_64/7/base
+check_config_file_age = True
+compare_providers_priority = 80
+cost = 1000
+deltarpm_metadata_percentage = 100
+deltarpm_percentage = 
+enabled = True
+enablegroups = True
+exclude = 
+failovermethod = priority
+ftp_disable_epsv = False
+gpgcadir = /var/lib/yum/repos/x86_64/7/base/gpgcadir
+gpgcakey = 
+gpgcheck = True
+gpgdir = /var/lib/yum/repos/x86_64/7/base/gpgdir
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+hdrdir = /var/cache/yum/x86_64/7/base/headers
+http_caching = all
+includepkgs = 
+ip_resolve = 
+keepalive = True
+keepcache = False
+mddownloadpolicy = sqlite
+mdpolicy = group:small
+mediaid = 
+metadata_expire = 21600
+metadata_expire_filter = read-only:present
+metalink = 
+minrate = 0
+mirrorlist = http://mirrorlist.centos.org/?release=7&arch=x86_64&repo=os&infra=container
+mirrorlist_expire = 86400
+mirrorlist_file = /var/cache/yum/x86_64/7/base/mirrorlist.txt
+name = CentOS-7 - Base
+old_base_cache_dir = 
+password = 
+persistdir = /var/lib/yum/repos/x86_64/7/base
+pkgdir = /var/cache/yum/x86_64/7/base/packages
+proxy = False
+proxy_dict = 
+proxy_password = 
+proxy_username = 
+repo_gpgcheck = False
+retries = 10
+skip_if_unavailable = False
+ssl_check_cert_permissions = True
+sslcacert = 
+sslclientcert = 
+sslclientkey = 
+sslverify = True
+throttle = 0
+timeout = 30.0
+ui_id = base/7/x86_64
+ui_repoid_vars = releasever,
+   basearch
+username = 
+
+[epel]
+async = True
+bandwidth = 0
+base_persistdir = /var/lib/yum/repos/x86_64/7
+baseurl = https://d2lzkl7pfhq30w.cloudfront.net/pub/epel/7/x86_64/,
+   https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/,
+   https://mirrors.rit.edu/fedora/epel/7/x86_64/,
+   http://mirror.es.its.nyu.edu/epel/7/x86_64/,
+   http://mirror.cs.princeton.edu/pub/mirrors/epel/7/x86_64/,
+   http://mirror.rnet.missouri.edu/epel/7/x86_64/,
+   https://mirror.umd.edu/fedora/epel/7/x86_64/,
+   https://mirrors.lug.mtu.edu/epel/7/x86_64/,
+   http://mirrors.mit.edu/epel/7/x86_64/,
+   https://mirrors.cat.pdx.edu/epel/7/x86_64/,
+   http://mirror.grid.uchicago.edu/pub/linux/epel/7/x86_64/,
+   https://mirror.vcu.edu/pub/gnu+linux/epel/7/x86_64/,
+   https://mirror.chpc.utah.edu/pub/epel/7/x86_64/,
+   http://www.gtlib.gatech.edu/pub/fedora-epel/7/x86_64/,
+   http://mirror.oss.ou.edu/epel/7/x86_64/,
+   https://pubmirror2.math.uh.edu/fedora-buffet/epel/7/x86_64/,
+   https://mirror.colorado.edu/fedora/epel/7/x86_64/,
+   http://mirror.seas.harvard.edu/epel/7/x86_64/,
+   https://pubmirror1.math.uh.edu/fedora-buffet/epel/7/x86_64/,
+   http://mirror.math.princeton.edu/pub/epel/7/x86_64/,
+   http://mirror.twinlakes.net/epel/7/x86_64/,
+   https://ewr.edge.kernel.org/fedora-buffet/epel/7/x86_64/,
+   https://mirrors.sonic.net/epel/7/x86_64/,
+   http://mirror.us.leaseweb.net/epel/7/x86_64/,
+   http://mirror.nodesdirect.com/epel/7/x86_64/,
+   http://mirror.compevo.com/epel/7/x86_64/,
+   https://mirror.mrjester.net/fedora/epel/7/x86_64/,
+   https://mirror.us-midwest-1.nexcess.net/epel/7/x86_64/,
+   http://mirror.sjc02.svwh.net/fedora-epel/7/x86_64/,
+   https://epel.mirror.constant.com/7/x86_64/,
+   http://mirrors.kernel.org/fedora-epel/7/x86_64/,
+   https://sjc.edge.kernel.org/fedora-buffet/epel/7/x86_64/,
+   http://mirror.metrocast.net/fedora/epel/7/x86_64/,
+   https://mirror.steadfastnet.com/epel/7/x86_64/,
+   https://mirrors.xmission.com/fedora-epel/7/x86_64/,
+   http://fedora-epel.mirror.lstn.net/7/x86_64/,
+   http://mirrors.develooper.com/epel/7/x86_64/,
+   http://mirror.cogentco.com/pub/linux/epel/7/x86_64/,
+   http://reflector.westga.edu/repos/Fedora-EPEL/7/x86_64/,
+   http://mirrors.liquidweb.com/fedora-epel/7/x86_64/,
+   http://mirror.prgmr.com/pub/epel/7/x86_64/,
+   http://mirror.coastal.edu/epel/7/x86_64/,
+   https://dl.fedoraproject.org/pub/epel/7/x86_64/,
+   https://mirror.csclub.uwaterloo.ca/fedora/epel/7/x86_64/,
+   http://fedora.westmancom.com/epel/7/x86_64/,
+   http://mirror.its.dal.ca/pub/epel/7/x86_64/,
+   https://muug.ca/mirror/fedora-epel/7/x86_64/
+cache = 0
+cachedir = /var/cache/yum/x86_64/7/epel
+check_config_file_age = True
+compare_providers_priority = 80
+cost = 1000
+deltarpm_metadata_percentage = 100
+deltarpm_percentage = 
+enabled = True
+enablegroups = True
+exclude = 
+failovermethod = priority
+ftp_disable_epsv = False
+gpgcadir = /var/lib/yum/repos/x86_64/7/epel/gpgcadir
+gpgcakey = 
+gpgcheck = True
+gpgdir = /var/lib/yum/repos/x86_64/7/epel/gpgdir
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
+hdrdir = /var/cache/yum/x86_64/7/epel/headers
+http_caching = all
+includepkgs = 
+ip_resolve = 
+keepalive = True
+keepcache = False
+mddownloadpolicy = sqlite
+mdpolicy = group:small
+mediaid = 
+metadata_expire = 21600
+metadata_expire_filter = read-only:present
+metalink = https://mirrors.fedoraproject.org/metalink?repo=epel-7&arch=x86_64
+metalink_filename = /var/cache/yum/x86_64/7/epel/metalink.xml
+minrate = 0
+mirrorlist = 
+mirrorlist_expire = 86400
+name = Extra Packages for Enterprise Linux 7 - x86_64
+old_base_cache_dir = 
+password = 
+persistdir = /var/lib/yum/repos/x86_64/7/epel
+pkgdir = /var/cache/yum/x86_64/7/epel/packages
+proxy = False
+proxy_dict = 
+proxy_password = 
+proxy_username = 
+repo_gpgcheck = False
+retries = 10
+skip_if_unavailable = False
+ssl_check_cert_permissions = True
+sslcacert = 
+sslclientcert = 
+sslclientkey = 
+sslverify = True
+throttle = 0
+timeout = 30.0
+ui_id = epel/x86_64
+ui_repoid_vars = releasever,
+   basearch
+username = 
+
+[extras]
+async = True
+bandwidth = 0
+base_persistdir = /var/lib/yum/repos/x86_64/7
+baseurl = http://mirrors.advancedhosters.com/centos/7.6.1810/extras/x86_64/,
+   http://mirror.cs.vt.edu/pub/CentOS/7.6.1810/extras/x86_64/,
+   http://repos-va.psychz.net/centos/7.6.1810/extras/x86_64/,
+   http://mirror.cogentco.com/pub/linux/centos/7.6.1810/extras/x86_64/,
+   http://mirror.vtti.vt.edu/centos/7.6.1810/extras/x86_64/,
+   http://repo1.ash.innoscale.net/centos/7.6.1810/extras/x86_64/,
+   http://mirror.ash.fastserv.com/centos/7.6.1810/extras/x86_64/,
+   http://centos4.zswap.net/7.6.1810/extras/x86_64/,
+   http://mirror.vcu.edu/pub/gnu_linux/centos/7.6.1810/extras/x86_64/,
+   http://mirror.linux.duke.edu/pub/centos/7.6.1810/extras/x86_64/
+cache = 0
+cachedir = /var/cache/yum/x86_64/7/extras
+check_config_file_age = True
+compare_providers_priority = 80
+cost = 1000
+deltarpm_metadata_percentage = 100
+deltarpm_percentage = 
+enabled = True
+enablegroups = True
+exclude = 
+failovermethod = priority
+ftp_disable_epsv = False
+gpgcadir = /var/lib/yum/repos/x86_64/7/extras/gpgcadir
+gpgcakey = 
+gpgcheck = True
+gpgdir = /var/lib/yum/repos/x86_64/7/extras/gpgdir
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+hdrdir = /var/cache/yum/x86_64/7/extras/headers
+http_caching = all
+includepkgs = 
+ip_resolve = 
+keepalive = True
+keepcache = False
+mddownloadpolicy = sqlite
+mdpolicy = group:small
+mediaid = 
+metadata_expire = 21600
+metadata_expire_filter = read-only:present
+metalink = 
+minrate = 0
+mirrorlist = http://mirrorlist.centos.org/?release=7&arch=x86_64&repo=extras&infra=container
+mirrorlist_expire = 86400
+mirrorlist_file = /var/cache/yum/x86_64/7/extras/mirrorlist.txt
+name = CentOS-7 - Extras
+old_base_cache_dir = 
+password = 
+persistdir = /var/lib/yum/repos/x86_64/7/extras
+pkgdir = /var/cache/yum/x86_64/7/extras/packages
+proxy = False
+proxy_dict = 
+proxy_password = 
+proxy_username = 
+repo_gpgcheck = False
+retries = 10
+skip_if_unavailable = False
+ssl_check_cert_permissions = True
+sslcacert = 
+sslclientcert = 
+sslclientkey = 
+sslverify = True
+throttle = 0
+timeout = 30.0
+ui_id = extras/7/x86_64
+ui_repoid_vars = releasever,
+   basearch
+username = 
+
+[updates]
+async = True
+bandwidth = 0
+base_persistdir = /var/lib/yum/repos/x86_64/7
+baseurl = http://mirror.vtti.vt.edu/centos/7.6.1810/updates/x86_64/,
+   http://mirrors.advancedhosters.com/centos/7.6.1810/updates/x86_64/,
+   http://mirror.cogentco.com/pub/linux/centos/7.6.1810/updates/x86_64/,
+   http://centos4.zswap.net/7.6.1810/updates/x86_64/,
+   http://mirror.cs.vt.edu/pub/CentOS/7.6.1810/updates/x86_64/,
+   http://repos-va.psychz.net/centos/7.6.1810/updates/x86_64/,
+   http://repo1.ash.innoscale.net/centos/7.6.1810/updates/x86_64/,
+   http://mirror.vcu.edu/pub/gnu_linux/centos/7.6.1810/updates/x86_64/,
+   http://mirror.ash.fastserv.com/centos/7.6.1810/updates/x86_64/,
+   http://mirror.compevo.com/centos/7.6.1810/updates/x86_64/
+cache = 0
+cachedir = /var/cache/yum/x86_64/7/updates
+check_config_file_age = True
+compare_providers_priority = 80
+cost = 1000
+deltarpm_metadata_percentage = 100
+deltarpm_percentage = 
+enabled = True
+enablegroups = True
+exclude = 
+failovermethod = priority
+ftp_disable_epsv = False
+gpgcadir = /var/lib/yum/repos/x86_64/7/updates/gpgcadir
+gpgcakey = 
+gpgcheck = True
+gpgdir = /var/lib/yum/repos/x86_64/7/updates/gpgdir
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+hdrdir = /var/cache/yum/x86_64/7/updates/headers
+http_caching = all
+includepkgs = 
+ip_resolve = 
+keepalive = True
+keepcache = False
+mddownloadpolicy = sqlite
+mdpolicy = group:small
+mediaid = 
+metadata_expire = 21600
+metadata_expire_filter = read-only:present
+metalink = 
+minrate = 0
+mirrorlist = http://mirrorlist.centos.org/?release=7&arch=x86_64&repo=updates&infra=container
+mirrorlist_expire = 86400
+mirrorlist_file = /var/cache/yum/x86_64/7/updates/mirrorlist.txt
+name = CentOS-7 - Updates
+old_base_cache_dir = 
+password = 
+persistdir = /var/lib/yum/repos/x86_64/7/updates
+pkgdir = /var/cache/yum/x86_64/7/updates/packages
+proxy = False
+proxy_dict = 
+proxy_password = 
+proxy_username = 
+repo_gpgcheck = False
+retries = 10
+skip_if_unavailable = False
+ssl_check_cert_permissions = True
+sslcacert = 
+sslclientcert = 
+sslclientkey = 
+sslverify = True
+throttle = 0
+timeout = 30.0
+ui_id = updates/7/x86_64
+ui_repoid_vars = releasever,
+   basearch
+username = 
+

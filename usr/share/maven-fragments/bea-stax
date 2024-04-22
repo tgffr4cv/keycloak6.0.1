@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<dependencyMap>
+	<dependency>
+		<maven>
+			<artifactId>stax</artifactId>
+			<groupId>stax</groupId>
+			<version>1.2.0</version>
+		</maven>
+		<jpp>
+			<artifactId>bea-stax</artifactId>
+			<groupId>JPP</groupId>
+		</jpp>
+	</dependency>
+</dependencyMap>

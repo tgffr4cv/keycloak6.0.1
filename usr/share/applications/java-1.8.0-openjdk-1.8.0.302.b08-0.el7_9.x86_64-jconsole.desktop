@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=OpenJDK 1.8.0 for x86_64 Monitoring & Management Console (1.8.0.302.b08-0.el7_9)
+Comment=Monitor and manage OpenJDK applications
+Exec=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.302.b08-0.el7_9.x86_64/bin/jconsole
+Icon=java-1.8.0-openjdk
+Terminal=false
+Type=Application
+StartupWMClass=sun-tools-jconsole-JConsole
+Categories=Development;Profiling;Java;
+Version=1.0
+X-Desktop-File-Install-Version=0.23

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<dependencyMap>
+	<dependency>
+		<maven>
+			<artifactId>stax-api</artifactId>
+			<groupId>stax</groupId>
+			<version>1.0.1</version>
+		</maven>
+		<jpp>
+			<artifactId>bea-stax-api</artifactId>
+			<groupId>JPP</groupId>
+		</jpp>
+	</dependency>
+	<dependency>
+		<maven>
+			<artifactId>stax-api</artifactId>
+			<groupId>javax.xml.stream</groupId>
+			<version>1.0.1</version>
+		</maven>
+		<jpp>
+			<artifactId>bea-stax-api</artifactId>
+			<groupId>JPP</groupId>
+		</jpp>
+	</dependency>
+</dependencyMap>

@@ -1,0 +1,176 @@
+2019-04-24 09:14:26,042 INFO  [org.jboss.modules] (CLI command executor) JBoss Modules version 1.9.0.Final
+2019-04-24 09:14:26,960 INFO  [org.jboss.msc] (CLI command executor) JBoss MSC version 1.4.5.Final
+2019-04-24 09:14:27,260 INFO  [org.jboss.threads] (CLI command executor) JBoss Threads version 2.3.3.Final
+2019-04-24 09:14:28,993 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: Keycloak 6.0.1 (WildFly Core 8.0.0.Final) starting
+2019-04-24 09:14:29,056 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	com.ibm.jsse2.overrideDefaultTLS = true
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /opt/jboss/keycloak/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_212-b04
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_212
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.212-b04
+	jboss.home.dir = /opt/jboss/keycloak
+	jboss.host.name = b5927885bdb2
+	jboss.modules.dir = /opt/jboss/keycloak/modules
+	jboss.modules.system.pkgs = com.sun.java.swing
+	jboss.node.name = b5927885bdb2
+	jboss.qualified.host.name = b5927885bdb2
+	jboss.server.base.dir = /opt/jboss/keycloak/standalone
+	jboss.server.config.dir = /opt/jboss/keycloak/standalone/configuration
+	jboss.server.content.dir = /opt/jboss/keycloak/standalone/data/content
+	jboss.server.data.dir = /opt/jboss/keycloak/standalone/data
+	jboss.server.deploy.dir = /opt/jboss/keycloak/standalone/data/content
+	jboss.server.log.dir = /opt/jboss/keycloak/standalone/log
+	jboss.server.name = b5927885bdb2
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /opt/jboss/keycloak/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/opt/jboss/keycloak/bin/jboss-cli-logging.properties
+	module.path = /opt/jboss/keycloak/modules
+	org.jboss.boot.log.file = /opt/jboss/keycloak/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.wildfly.logging.embedded = false
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.4.0-1060-aws
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /opt/jboss/keycloak/jboss-modules.jar -mp /opt/jboss/keycloak/modules org.jboss.as.cli --file=/opt/jboss/tools/cli/standalone-configuration.cli
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /opt/jboss/keycloak
+	user.home = /root
+	user.language = en
+	user.name = root
+	user.timezone = UTC
+2019-04-24 09:14:29,058 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Djboss.modules.system.pkgs=com.sun.java.swing -Dcom.ibm.jsse2.overrideDefaultTLS=true -Dlogging.configuration=file:/opt/jboss/keycloak/bin/jboss-cli-logging.properties 
+2019-04-24 09:14:36,638 INFO  [org.wildfly.security] (ServerService Thread Pool -- 19) ELY00001: WildFly Elytron version 1.8.0.Final
+2019-04-24 09:14:44,609 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2019-04-24 09:14:45,772 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2019-04-24 09:14:47,944 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2019-04-24 09:14:48,330 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore /opt/jboss/keycloak/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2019-04-24 09:14:49,187 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2019-04-24 09:14:49,259 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 6.0.1 (WildFly Core 8.0.0.Final) started in 23051ms - Started 64 of 78 services (25 services are lazy, passive or on-demand)
+2019-04-24 09:14:51,868 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: Keycloak 6.0.1 (WildFly Core 8.0.0.Final) stopped in 106ms
+2019-04-24 09:15:03,874 INFO  [org.jboss.modules] (CLI command executor) JBoss Modules version 1.9.0.Final
+2019-04-24 09:15:04,810 INFO  [org.jboss.msc] (CLI command executor) JBoss MSC version 1.4.5.Final
+2019-04-24 09:15:05,227 INFO  [org.jboss.threads] (CLI command executor) JBoss Threads version 2.3.3.Final
+2019-04-24 09:15:06,936 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: Keycloak 6.0.1 (WildFly Core 8.0.0.Final) starting
+2019-04-24 09:15:07,004 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	com.ibm.jsse2.overrideDefaultTLS = true
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /opt/jboss/keycloak/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_212-b04
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_212
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.212-b04
+	jboss.home.dir = /opt/jboss/keycloak
+	jboss.host.name = b5927885bdb2
+	jboss.modules.dir = /opt/jboss/keycloak/modules
+	jboss.modules.system.pkgs = com.sun.java.swing
+	jboss.node.name = b5927885bdb2
+	jboss.qualified.host.name = b5927885bdb2
+	jboss.server.base.dir = /opt/jboss/keycloak/standalone
+	jboss.server.config.dir = /opt/jboss/keycloak/standalone/configuration
+	jboss.server.content.dir = /opt/jboss/keycloak/standalone/data/content
+	jboss.server.data.dir = /opt/jboss/keycloak/standalone/data
+	jboss.server.deploy.dir = /opt/jboss/keycloak/standalone/data/content
+	jboss.server.log.dir = /opt/jboss/keycloak/standalone/log
+	jboss.server.name = b5927885bdb2
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /opt/jboss/keycloak/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/opt/jboss/keycloak/bin/jboss-cli-logging.properties
+	module.path = /opt/jboss/keycloak/modules
+	org.jboss.boot.log.file = /opt/jboss/keycloak/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.wildfly.logging.embedded = false
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.4.0-1060-aws
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /opt/jboss/keycloak/jboss-modules.jar -mp /opt/jboss/keycloak/modules org.jboss.as.cli --file=/opt/jboss/tools/cli/standalone-ha-configuration.cli
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /opt/jboss/keycloak
+	user.home = /root
+	user.language = en
+	user.name = root
+	user.timezone = UTC
+2019-04-24 09:15:07,032 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Djboss.modules.system.pkgs=com.sun.java.swing -Dcom.ibm.jsse2.overrideDefaultTLS=true -Dlogging.configuration=file:/opt/jboss/keycloak/bin/jboss-cli-logging.properties 
+2019-04-24 09:15:17,261 INFO  [org.wildfly.security] (ServerService Thread Pool -- 21) ELY00001: WildFly Elytron version 1.8.0.Final
+2019-04-24 09:15:28,097 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2019-04-24 09:15:29,647 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2019-04-24 09:15:31,609 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2019-04-24 09:15:31,995 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-1) WFLYDM0111: Keystore /opt/jboss/keycloak/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2019-04-24 09:15:33,078 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2019-04-24 09:15:33,199 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 6.0.1 (WildFly Core 8.0.0.Final) started in 29237ms - Started 64 of 83 services (30 services are lazy, passive or on-demand)
+2019-04-24 09:15:36,090 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: Keycloak 6.0.1 (WildFly Core 8.0.0.Final) stopped in 117ms

@@ -1,0 +1,114 @@
+146:c4194130fc7eda42b88da07f21ab3a66e8838075
+32
+1
+installed:159:18d68acf27f822738e5121d90969729b0236e99e
+13
+mbr: bsdtar,x86_64,0,3.1.2,10.el7_2 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: saxon,noarch,0,9.3.0.4,11.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: libarchive,x86_64,0,3.1.2,10.el7_2 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: bsdtar,x86_64,0,3.1.2,10.el7_2@a:dependson
+  depends_on: bsdtar,x86_64,0,3.1.2,10.el7_2@a
+mbr: python-javapackages,noarch,0,3.4.1,11.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: javapackages-tools,noarch,0,3.4.1,11.el7@a:dependson
+  depends_on: javapackages-tools,noarch,0,3.4.1,11.el7@a
+mbr: libxslt,x86_64,0,1.1.28,5.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: javapackages-tools,noarch,0,3.4.1,11.el7@a:dependson python-lxml,x86_64,0,3.2.1,4.el7@a:dependson python-lxml,x86_64,0,3.2.1,4.el7@a:dependson python-lxml,x86_64,0,3.2.1,4.el7@a:dependson python-lxml,x86_64,0,3.2.1,4.el7@a:dependson python-lxml,x86_64,0,3.2.1,4.el7@a:dependson python-lxml,x86_64,0,3.2.1,4.el7@a:dependson python-lxml,x86_64,0,3.2.1,4.el7@a:dependson python-lxml,x86_64,0,3.2.1,4.el7@a:dependson python-lxml,x86_64,0,3.2.1,4.el7@a:dependson
+  depends_on: javapackages-tools,noarch,0,3.4.1,11.el7@a python-lxml,x86_64,0,3.2.1,4.el7@a python-lxml,x86_64,0,3.2.1,4.el7@a python-lxml,x86_64,0,3.2.1,4.el7@a python-lxml,x86_64,0,3.2.1,4.el7@a python-lxml,x86_64,0,3.2.1,4.el7@a python-lxml,x86_64,0,3.2.1,4.el7@a python-lxml,x86_64,0,3.2.1,4.el7@a python-lxml,x86_64,0,3.2.1,4.el7@a python-lxml,x86_64,0,3.2.1,4.el7@a
+mbr: python-lxml,x86_64,0,3.2.1,4.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: python-javapackages,noarch,0,3.4.1,11.el7@a:dependson
+  depends_on: python-javapackages,noarch,0,3.4.1,11.el7@a
+mbr: bea-stax,noarch,0,1.2.0,9.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: saxon,noarch,0,9.3.0.4,11.el7@a:dependson
+  depends_on: saxon,noarch,0,9.3.0.4,11.el7@a
+mbr: augeas,x86_64,0,1.4.0,6.el7_6.1 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: unzip,x86_64,0,6.0,19.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: augeas-libs,x86_64,0,1.4.0,6.el7_6.1 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: augeas,x86_64,0,1.4.0,6.el7_6.1@a:dependson
+  depends_on: augeas,x86_64,0,1.4.0,6.el7_6.1@a
+mbr: javapackages-tools,noarch,0,3.4.1,11.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: saxon,noarch,0,9.3.0.4,11.el7@a:dependson bea-stax,noarch,0,1.2.0,9.el7@a:dependson bea-stax-api,noarch,0,1.2.0,9.el7@a:dependson
+  depends_on: saxon,noarch,0,9.3.0.4,11.el7@a bea-stax,noarch,0,1.2.0,9.el7@a bea-stax-api,noarch,0,1.2.0,9.el7@a
+mbr: lzo,x86_64,0,2.06,8.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: bsdtar,x86_64,0,3.1.2,10.el7_2@a:dependson libarchive,x86_64,0,3.1.2,10.el7_2@a:dependson
+  depends_on: bsdtar,x86_64,0,3.1.2,10.el7_2@a libarchive,x86_64,0,3.1.2,10.el7_2@a
+mbr: bea-stax-api,noarch,0,1.2.0,9.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: saxon,noarch,0,9.3.0.4,11.el7@a:dependson
+  depends_on: saxon,noarch,0,9.3.0.4,11.el7@a

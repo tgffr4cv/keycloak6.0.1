@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<dependencyMap>
+	<dependency>
+		<maven>
+			<artifactId>saxon</artifactId>
+			<groupId>net.sf.saxon</groupId>
+			<version>9.3.0.4</version>
+		</maven>
+		<jpp>
+			<artifactId>saxon</artifactId>
+			<groupId>JPP</groupId>
+		</jpp>
+	</dependency>
+</dependencyMap>
